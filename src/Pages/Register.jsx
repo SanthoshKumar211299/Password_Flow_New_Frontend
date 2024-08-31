@@ -79,7 +79,7 @@ const Register = () => {
         </div>
 
         {/* password field */}
-        <div className="col-12 col-md-12 col-sm-12 d-flex justify-content-center mt-1 pt-2">
+        <div className="col-12 col-md-12 col-sm-12 d-flex justify-content-center mt-0 pt-2">
           <div className="col-12 col-md-9 col-sm-12 ">
             <label htmlFor="password" className="form-label ms-2">
               Password:
