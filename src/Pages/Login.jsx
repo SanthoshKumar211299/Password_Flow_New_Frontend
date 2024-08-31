@@ -87,7 +87,7 @@ const Login = ({setToken}) => {
         {/* forgot field */}
         <div className="d-flex justify-content-center mt-1  ">
           <button className="btn">
-            <Link to="/forgot-password" className="fs-5">
+            <Link to="/forgotpassword" className="fs-5">
               Forgot Password?
             </Link>
           </button>
