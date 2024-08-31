@@ -29,7 +29,7 @@ const Register = () => {
     setUsername("");
   };
   return (
-    <div className="container form">
+    <div className="container form ">
     <form onSubmit={handleSubmit} className="card fs-5 p-3">
       <fieldset>
       <legend className="fs-2 text-center ">
@@ -79,8 +79,8 @@ const Register = () => {
         </div>
 
         {/* password field */}
-        <div className="col-12 col-md-12 col-sm-12 d-flex justify-content-center mt-0 pt-2">
-          <div className="col-12 col-md-9 col-sm-12 ">
+        <div className="col-12 col-md-12 col-sm-12 d-flex justify-content-center mt-1 pt-2">
+          <div className="col-12 col-md-9 col-sm-12 mt-6">
             <label htmlFor="password" className="form-label ms-2">
               Password:
             </label>
