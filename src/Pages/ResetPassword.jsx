@@ -14,7 +14,7 @@ const ResetPassword = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        `https://password-reset-new-backend.onrender.com/resetpassword/${id}/${token}`,
+        `https://password-reset-new-backend.onrender.com/api/resetpassword/${id}/${token}`,
         { password, confirmPassword }
       );
       toast.success(response.data.message);
