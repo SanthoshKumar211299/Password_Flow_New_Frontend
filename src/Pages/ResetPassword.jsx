@@ -43,7 +43,7 @@ const ResetPassword = () => {
                 type="password"
                 name="password"
                 className="form-control mt-2 fs-5"
-                id="password"
+                id="new_password"
                 placeholder="Enter your password"
                 onChange={(e) => setPassword(e.target.value)}
               />
@@ -59,7 +59,7 @@ const ResetPassword = () => {
                 type="password"
                 name="confirm password"
                 className="form-control mt-2 fs-5"
-                id="password"
+                id="confirm_password"
                 placeholder="Enter Confirm Password"
                 onChange={(e) => setConfirmPassword(e.target.value)}
               />
