@@ -25,7 +25,7 @@ const ForgotPassword = () => {
   };
   return (
     <div className="d-flex justify-content-center align-items-center container mt-8">
-      <div className="bg-white p-3 mt-5 card">
+      <div className="bg-white p-3 mt-6 card">
         <legend className="fs-2 text-center ">
           <span className=" text-info"> Demo App</span>
         </legend>
