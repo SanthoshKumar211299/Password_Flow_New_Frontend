@@ -1,4 +1,4 @@
-*About the Website*
+**About the Website**
 
 Built a website where password reset flow is achived with the backend.
 
