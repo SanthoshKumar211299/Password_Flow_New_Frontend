@@ -1,8 +1,17 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##About the Website##
+Built a website where password reset flow is achived with the backend.
+The pages include Sign-In , Sign-Up , Register, Reset , Home (dummy)
+The sign up page includes the fields like User Name , Email , Password.
+The sign in page includes the fields like Email , Password and link to Forgot Password page.
+The Forgot Password Page includes field of Email to send to Reset Password link to Register Page.
+The Reset page includes field of Password and Confirm Password to reset password.
+🔖Endpoints
+➡️ Login User
+URL - https://passwordresetnewflow.netlify.app/Login
+➡️ Register User
+URL - https://passwordresetnewflow.netlify.app/register
+➡️ Forgot Password
+URL - https://passwordresetnewflow.netlify.app/forgotpassword
+➡️ Reset Password
+URL - https://passwordresetnewflow.netlify.app/resetpassword/:id/:token
+BASE URL - https://passwordresetnewflow.netlify.app/
